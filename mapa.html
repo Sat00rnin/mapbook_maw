@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4836cb7149ca7815a45079cb1dc9a17 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d4836cb7149ca7815a45079cb1dc9a17" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d4836cb7149ca7815a45079cb1dc9a17 = L.map(
+                "map_d4836cb7149ca7815a45079cb1dc9a17",
+                {
+                    center: [52.3, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ad2710214c4db890c52fc5e5db776fe7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ad2710214c4db890c52fc5e5db776fe7.addTo(map_d4836cb7149ca7815a45079cb1dc9a17);
+        
+    
+            var marker_e939a8294764a31a40ab8720b7c1689d = L.marker(
+                [54.213889, 21.741389],
+                {
+}
+            ).addTo(map_d4836cb7149ca7815a45079cb1dc9a17);
+        
+    
+        var popup_990c4356946f620728a5c5e974ad5da5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_868dfd93d2122a366b3fe35a21e48671 = $(`<div id="html_868dfd93d2122a366b3fe35a21e48671" style="width: 100.0%; height: 100.0%;">Mateusz<br/>Węgorzewo<br/> 100<br/><img src="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg" alt="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg"/></div>`)[0];
+                popup_990c4356946f620728a5c5e974ad5da5.setContent(html_868dfd93d2122a366b3fe35a21e48671);
+            
+        
+
+        marker_e939a8294764a31a40ab8720b7c1689d.bindPopup(popup_990c4356946f620728a5c5e974ad5da5)
+        ;
+
+        
+    
+    
+            var marker_ae502221c8674fa167fef6b667575dba = L.marker(
+                [51.132222, 23.477778],
+                {
+}
+            ).addTo(map_d4836cb7149ca7815a45079cb1dc9a17);
+        
+    
+        var popup_13d86c54c60c51b7da50f1e463d709e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0322420892b8a4fd8d143502740935d = $(`<div id="html_a0322420892b8a4fd8d143502740935d" style="width: 100.0%; height: 100.0%;">Wiktoria<br/>Chełm<br/> 6<br/><img src="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg" alt="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg"/></div>`)[0];
+                popup_13d86c54c60c51b7da50f1e463d709e0.setContent(html_a0322420892b8a4fd8d143502740935d);
+            
+        
+
+        marker_ae502221c8674fa167fef6b667575dba.bindPopup(popup_13d86c54c60c51b7da50f1e463d709e0)
+        ;
+
+        
+    
+    
+            var marker_155f6803a3fde90543fe6bd336b71cce = L.marker(
+                [50.664722, 17.926944],
+                {
+}
+            ).addTo(map_d4836cb7149ca7815a45079cb1dc9a17);
+        
+    
+        var popup_d80b9f07b46dbc855ab825913218e6f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af22a91873a3a7c799bf186ce1a33e4d = $(`<div id="html_af22a91873a3a7c799bf186ce1a33e4d" style="width: 100.0%; height: 100.0%;">Sabina<br/>Opole<br/> 110<br/><img src="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg" alt="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg"/></div>`)[0];
+                popup_d80b9f07b46dbc855ab825913218e6f6.setContent(html_af22a91873a3a7c799bf186ce1a33e4d);
+            
+        
+
+        marker_155f6803a3fde90543fe6bd336b71cce.bindPopup(popup_d80b9f07b46dbc855ab825913218e6f6)
+        ;
+
+        
+    
+    
+            var marker_7cb33f35b48a67306d2e7d396e77fcc6 = L.marker(
+                [51.531389, 20.008889],
+                {
+}
+            ).addTo(map_d4836cb7149ca7815a45079cb1dc9a17);
+        
+    
+        var popup_5138ee28a3c27dc313450c5073a3e6a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_610933666868aefd4d0db321d61733b4 = $(`<div id="html_610933666868aefd4d0db321d61733b4" style="width: 100.0%; height: 100.0%;">Weronika<br/>Tomaszów Mazowiecki<br/> 300<br/><img src="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg" alt="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg"/></div>`)[0];
+                popup_5138ee28a3c27dc313450c5073a3e6a3.setContent(html_610933666868aefd4d0db321d61733b4);
+            
+        
+
+        marker_7cb33f35b48a67306d2e7d396e77fcc6.bindPopup(popup_5138ee28a3c27dc313450c5073a3e6a3)
+        ;
+
+        
+    
+    
+            var marker_792be27be28467a72fd579d867a4e2b9 = L.marker(
+                [52.054167, 20.444444],
+                {
+}
+            ).addTo(map_d4836cb7149ca7815a45079cb1dc9a17);
+        
+    
+        var popup_92fefac498fdbe5e5c005a520e8e1673 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a06ac279d552b7e4f21fcaa4161a98a = $(`<div id="html_3a06ac279d552b7e4f21fcaa4161a98a" style="width: 100.0%; height: 100.0%;">Julia<br/>Żyrardów<br/> 50<br/><img src="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg" alt="https://www.wig.wat.edu.pl/images/aktualnosci/2025/sklad_kpn_700.jpg"/></div>`)[0];
+                popup_92fefac498fdbe5e5c005a520e8e1673.setContent(html_3a06ac279d552b7e4f21fcaa4161a98a);
+            
+        
+
+        marker_792be27be28467a72fd579d867a4e2b9.bindPopup(popup_92fefac498fdbe5e5c005a520e8e1673)
+        ;
+
+        
+    
+</script>
+</html>
